@@ -1,0 +1,24 @@
+<div class="container-fluid" style="padding:10px;background-color: #555;height:80px;">
+    <div class="logo-div">
+        <img src="assets/images/logo1.jpg" class="logo">
+        <!-- <h5>Gokul Mills</h5> -->
+    </div> 
+    <div class="topnav" id="topnav">
+        <a routerLinkActive="active" 
+        (click)="setActive('home')" 
+        class="{{getActive('home')}}" 
+        href="#" routerLink="/">Home</a>
+        <a href="#" routerLink="/whyus" routerLinkActive="active" 
+        (click)="setActive('why_us')" 
+        class="{{getActive('why_us')}}" 
+         >Why Us?</a> 
+        <a href="#" routerLink="/Products" routerLinkActive="active" 
+        (click)="setActive('products')" 
+        class="{{getActive('products')}}" 
+         >Products</a>
+        <a href="#" routerLink="/contact" routerLinkActive="active" 
+        (click)="setActive('contact')" 
+        class="{{getActive('contact')}}" 
+        >Contact</a>
+    </div>   
+</div>

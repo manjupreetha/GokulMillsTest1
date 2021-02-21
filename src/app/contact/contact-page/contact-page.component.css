@@ -1,0 +1,54 @@
+*{
+    font-family: Georgia;
+}
+.header{
+    text-align: center;
+    padding: 30px;
+    border-bottom:3px solid #555;
+}
+
+.header>h1{
+    /* font-style: italic; */
+    font-weight: bolder;
+}
+
+.wrapper {
+    padding-top:20px;
+}
+
+.info{
+    width:50%;
+    text-align:left;
+    float:left;
+    padding-top: 10px;
+    /* border:1px solid rgb(188, 188, 197); */
+    padding-left:10%;
+}
+
+.title{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+    padding-bottom:10px;
+}
+
+.details{
+    text-indent: 2em;
+    line-height: 0.7;
+}
+
+.map{
+    width:50%;
+    /* text-align:center; */
+    float:left;
+    padding:20px;
+    padding-top: 40px;
+    /* border:1px solid red; */
+}
+
+.map>img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    border:10px solid gray;
+}

@@ -1,0 +1,32 @@
+<!-- <a href="#" [routerLink]="[item.link]" [queryParams]="{ get : [item.id] }">{{item.product_name}}</a>  -->
+<div class="container">
+    <div class="header">
+        <h1 id="firm-name">Products</h1>
+    </div>
+    <div class="cards" style="padding-top:30px;">    
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div *ngFor="let item of mainproducts">
+        <div class="col" style="float:left;">
+                    <div class="card h-100" style="border:none;text-align: center;">
+                        <img
+                        src="https://mdbootstrap.com/img/new/standard/city/044.jpg"
+                        class="card-img-top"
+                        alt="..."
+                        />
+                        <div class="card-body">
+                        <h5 class="card-title">{{item.product_name}}</h5>
+                        <p class="card-text">
+                            {{item.about}}
+                        </p>
+                        </div>
+                        <div class="cards-footer">
+                            <button class="btn_more" data-toggle="tooltip" data-placement="bottom" title="Click here to get products"  [routerLink]="[item.link]" [queryParams]="{ get : [item.id] }">
+                                Get Products...
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

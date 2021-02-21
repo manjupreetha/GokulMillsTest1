@@ -1,0 +1,125 @@
+<div class="container">
+    <app-link-bread-crumbs [mainProduct]="mainproduct" [subProduct]="subproduct" [mainProductid]="mainproductid" [subProductid]="subproductid" [productName]="productName"></app-link-bread-crumbs>
+    <div style="padding: 20px;">
+        <h3>{{productDetail.product_name}}</h3>
+        <div class="row">
+        <div class="img-column" id="image-section">
+            <img [src]="[productDetail.imageUrl]" id="main-image" style="width:50%;height:50%;">
+            <div>
+              <img [src]="[productDetail.imageUrl]" class="avatar">
+            </div>
+        </div>
+  
+        <div class="bar"></div>
+  
+        <div style="width: 49%;float: left;min-height:500px; padding:20px;" class="column">
+            
+            <div class="container" style="padding:20px;" id="horizontal-nav">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#details">Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ingredients">Ingredients</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#usage">Usage</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#package">Package</a>
+                  </li>
+                </ul>
+              
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div id="details" class="container tab-pane active"><br>
+                    <ul *ngFor="let detail of productDetail.details">
+                      <li class="list">{{detail}}</li>
+                    </ul>
+                  </div>
+                  <div id="ingredients" class="container tab-pane fade"><br>
+                    <ul *ngFor="let ingredient of productDetail.ingredients">
+                      <li>{{ingredient}}</li>
+                    </ul>
+                  </div>
+                  <div id="usage" class="container tab-pane fade"><br>
+                    <ul *ngFor="let use of productDetail.usage">
+                      <li>{{use}}</li>
+                    </ul>
+                  </div>
+                  <div id="package" class="container tab-pane fade"><br>
+                    <p>{{productDetail.package}}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="container" id="vertical-nav">
+                <div id="accordion" class="float-child">
+                  <div class="card">
+                    <div class="card-header" id="detailheading" data-toggle="collapse" data-target="#detailbody" aria-expanded="true" aria-controls="detailbody">
+                      <h5 class="mb-0">
+                          Details
+                      </h5>
+                    </div>
+                    <div id="detailbody" class="collapse show" aria-labelledby="detailheading" data-parent="#accordion">
+                      <div class="card-body">
+                        <ul *ngFor="let detail of productDetail.details">
+                        <li>{{detail}}</li>
+                    </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="ingredientsheading" data-toggle="collapse" data-target="#ingredientsbody" aria-expanded="false" aria-controls="ingredientsbody">
+                      <h5 class="mb-0">
+                        <!-- <button class="btn btn-link collapsed"> -->
+                          Ingredients
+                        <!-- </button> -->
+                      </h5>
+                    </div>
+                    <div id="ingredientsbody" class="collapse" aria-labelledby="ingredientsheading" data-parent="#accordion">
+                      <div class="card-body">
+                        <ul *ngFor="let ingredient of productDetail.ingredients">
+                            <li>{{ingredient}}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="usageheading" data-toggle="collapse" data-target="#usagebody" aria-expanded="false" aria-controls="usagebody">
+                      <h5 class="mb-0">
+                        <!-- <button class="btn btn-link collapsed"> -->
+                          Usage
+                        <!-- </button> -->
+                      </h5>
+                    </div>
+                    <div id="usagebody" class="collapse" aria-labelledby="usageheading" data-parent="#accordion">
+                      <div class="card-body">
+                        <ul *ngFor="let use of productDetail.usage">
+                            <li>{{use}}</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="packageheading" data-toggle="collapse" data-target="#packagebody" aria-expanded="false" aria-controls="packagebody">
+                      <h5 class="mb-0">
+                        <!-- <button class="btn btn-link collapsed"> -->
+                          Package
+                        <!-- </button> -->
+                      </h5>
+                    </div>
+                    <div id="packagebody" class="collapse" aria-labelledby="packageheading" data-parent="#accordion">
+                      <div class="card-body">
+                        <p>Package: {{productDetail.package}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  

@@ -1,0 +1,15 @@
+<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="/Products">Products</a></li>
+      <li class="breadcrumb-item active" aria-current="page" *ngIf="mainProduct">
+        
+          <a href="#" [routerLink]="[productlink]" [queryParams]="{ get : [mainProductid] }">{{mainProduct}}</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page" *ngIf="subProduct">
+        <a href="#" [routerLink]="[subproductlink]" [queryParams]="{ get : [subProductid] }">{{subProduct}}</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page" *ngIf="productName">
+        {{productName}}
+      </li>
+    </ol>
+</nav>
