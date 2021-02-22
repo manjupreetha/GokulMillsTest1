@@ -1,0 +1,293 @@
+{
+	"productDetails":[
+		{
+			"id":"pd1",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Dairy care organic",
+			"details":[
+				"Increase milk level, Fat and SNF",
+				"Improves the body weight",
+				"Improves the feed conversion ratio",
+				"Improves the immunity",
+				"Maintain the Body pH and temperature",
+				"Enhance fertility rate"
+				],
+			"ingredients":[
+				"Probiotic cultures (3 X 10 9 CFU /gm)",
+				"Bacterial cultures (lactobacillus lactis, acidophilus, actobacillus sporogenes, brevis bifido bacterium bifidus bacillus subtilise, amyloliquefaciens )",
+				"Yeast cultures",
+				"Feed enzymes",
+				"Vitamins (A, B, B1, D3, E)",
+				"Trace minerals (cobalt, copper, iron, calcium, phosphorous, sodium, zinc, manganese, selenium, magnesium)"
+				],
+			"usage":[
+				"20 gms per day for cow (below 300kg body weight)",
+				"40 gms per day for cow ( above 300kg body weight)",
+				"10 gms per day for calf (below one year)"
+			],
+			"package":"Available in 1kg, 5kg, 10kg",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd2",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Microbe based organic liquid feed supplementary Liquid probitics",
+			"details":[
+				"Improves digestion",
+				"Cure all digestion related problem",
+				"Improves immunity",
+				"Improve the feed conversion ratio"
+				],
+			"ingredients":["Nil"],
+			"usage":[
+				"5 ml per day for calf",
+				"10 ml per day for cow"
+			],
+			"package":"Available in 1 litre, 5 litre",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd3",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Micronutrient block",
+			"details":[
+					"Maintain the body health",
+					"Makes the animal active",
+					"Enhance the digestion",
+					"Improves the fertility  & reproductive performance of the animal",
+					"Simulate growth",
+					"Improves bone and skin disorder",
+					"To helps build body resistant against various disorder",
+					"Prevent from malnutrition",
+					"Ensures the heat period at right time"
+				],
+			"ingredients":[
+					"cobalt",
+					"copper",
+					"iron",
+					"calcium",
+					"phosphorous",
+					"sodium",
+					"zinc",
+					"manganese",
+					"selenium",
+					"magnesium"
+				],
+			"usage":[
+				"Place before the animal and make access to lick it"
+			],
+			"package":"Available in 1 kg, 2 kg",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd4",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Chelated mineral mixture",
+			"details":[
+					"Maintain the body health",
+					"Makes the animal active",
+					"Improves the fertility  & reproductive performance of the animal",
+					"Simulate growth",
+					"Free from chemical and bone water"
+				],
+			"ingredients":["Nil"],
+			"usage":[
+					"10 -15 gms per day for cow (below 300kg body weight)",
+					"50 - 60 gms per day for cow (above 300kg body weight)",
+					"5 -10 gms per day for calf (below one year)"
+			],
+			"package":"Available in 1 kg, 5 kg",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd5",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Rumen Acidosis controller",
+			"details":[
+					"Reduces risk of acidosis in livestock",
+					"Prevent anorexia",
+					"Controls the indecision",
+					"Maintains the rumen micro flora"
+				],
+			"ingredients":["Nil"],
+			"usage":[
+					"5 - 10 per day foe cow",
+					"0.5 % mixing in compound feed as recommend by animal nutritionist"
+			],
+			"package":"Available in 1 kg, 5 kg",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd6",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Liquid Calcium feed supplementary",
+			"details":[
+					"Maintains the body health & rumen pH",
+					"Increase the milk level",
+					"Strengthens the bones"
+				],
+			"ingredients":[
+					"Calcium",
+					"Phoshorous",
+					"Vitamins (A, B, D3 & E)"
+				],
+			"usage":[
+					"15 ml per day for cow (below 300kg body weight)",
+					"40 - 50 ml per day for cow ( above 300kg body weight)",
+					"10 ml per day for calf (below one year)"
+				],
+			"package":"Available in 1 litre, 5 litre and 10 litre can",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd7",
+			"sub_product_id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Fertilizing yeast",
+			"details":[
+					"Enhance heat period at right time",
+					"Improves the performance during heat period",
+					"Increase fermentation",
+					"Reduces the malnutrition", 
+					"Maintain the body health",
+					"Makes the animal active"
+				],
+			"ingredients":[
+					"Seleniumated yeast",
+					"Ferrous",
+					"Zinc",
+					"Manganese",
+					"Magnesium",
+					"Cobalt",
+					"Boron",
+					"Molybdenum" 
+				],
+			"usage":[
+					"20 gms per day for cow or buffalo"
+				],
+			"package":"Available in 200 gms",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd8",
+			"sub_product_id":"s6",
+			"main_product_id":"m2",
+			"product_name":"Goat care plus",
+			"details":[
+					"Improves the body weight",
+					"Improves the goat shine",
+					"Improves the feed conversion ratio",
+					"Improves the immunity",
+					"Maintain the body pH and temperature",
+					"Increase milk level and fat",
+					"Enhance the fertility rate"
+				],
+			"ingredients":[
+					"Probiotic cultures (3 X 10 9 CFU /gm )",
+					"Bacterial cultures (lactobacillus lactis ,acidophilus,lactobacillus sporogenes , brevis bifido bacterium bifidus bacillus subtilise , amyloliquefaciens)",	
+					"Yeast cultures",
+					"Feed enzymes",
+					"Vitamins (A,B,B1,D3,E)",
+					"Trace minerals (cobalt, copper, iron, calcium, phosphorous, sodium, zinc, manganese, selenium, magnesium)"
+				],
+			"usage":[
+					"5 gms per day (below 6 months)",
+					"10 gms per day (above one year)"
+				],
+			"package":"Available in 1kg, 5kg, 10kg",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd9",
+			"sub_product_id":"s6",
+			"main_product_id":"m2",
+			"product_name":"Microbe based organic liquid feed supplementary Liquid probitics",
+			"details":[
+					"Improves digestion",
+					"Cure all digestion related problem",
+					"Improves immunity",
+					"Improve the feed conversion ratio"
+				],
+			"ingredients":["Nil"],
+			"usage":[
+					"3 ml per day (below 6 months)",
+					"5 ml per day (above 6 months)"
+				],
+			"package":"Available in 1 litre, 5 litre",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd10",
+			"sub_product_id":"s6",
+			"main_product_id":"m2",
+			"product_name":"Micronutrient block",
+			"details":[
+					"Maintain the body health",
+					"Makes the animal active",
+					"Enhance the digestion",
+					"Improves the fertility & reproductive performance of the animal",
+					"Simulate growth",
+					"Improves bone and skin disorder",
+					"To helps build body resistant against various disorder",
+					"Prevent from malnutrition",
+					"Ensures the heat period at right time"
+				],
+			"ingredients":[
+					"Cobalt",
+					"Copper",
+					"Iron",
+					"Calcium",
+					"Phosphorous",
+					"Sodium",
+					"Zinc",
+					"Manganese",
+					"Selenium",
+					"Magnesium"
+					],
+			"usage":[
+					"Place before the animal and make access to lick it"
+				],
+			"package":"Available in 1 litre, 5 litre",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		},
+		{
+			"id":"pd11",
+			"sub_product_id":"s6",
+			"main_product_id":"m2",
+			"product_name":"Liquid Calcium feed supplementary",
+			"details":[
+					"Maintain the body health & rumen pH",
+					"Increase the milk level",
+					"Strengthens the bones"
+				],
+			"ingredients":[
+					"Calcium",
+					"Phoshorous",
+					"Vitamins (A, B, D3 & E)"
+					],
+			"usage":[
+					"5 -10 ml per day for cow (below 300kg body weight)"
+				],
+			"package":"Available in 1 litre, 5 litre and 10 litre can",
+			"imageUrl":"assets/images/sack.jpg",
+			"link":"../getdetails"
+		}
+		
+	]
+}

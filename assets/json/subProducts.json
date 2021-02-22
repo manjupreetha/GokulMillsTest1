@@ -1,0 +1,53 @@
+{
+	"subProducts":[
+		{
+			"id":"s1",
+			"main_product_id":"m1",
+			"product_name":"Chaff mash feed",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},
+		{
+			"id":"s2",
+			"main_product_id":"m1",
+			"product_name":"Mash feed (Natural Ingredient)",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},		
+		{
+			"id":"s3",
+			"main_product_id":"m1",
+			"product_name":"Bypro feed",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},
+		{
+			"id":"s4",
+			"main_product_id":"m1",
+			"product_name":"Supplementary",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},
+		{
+			"id":"s5",
+			"main_product_id":"m2",
+			"product_name":"Sheep & Goat feed",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},
+		{
+			"id":"s6",
+			"main_product_id":"m2",
+			"product_name":"Supplementary",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		},
+		{
+			"id":"s7",
+			"main_product_id":"m3",
+			"product_name":"Supplementary",
+			"about":"With supporting text below as a natural lead-in to additional content.",
+			"link":"../getsubproducts"
+		}
+	]
+}
